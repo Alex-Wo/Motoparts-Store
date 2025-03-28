@@ -1,20 +1,20 @@
-<h1 align="center">Проект:</h1>
+# Motoparts-Store
 
-<p>Интернет-магазин запасных частей для мотоциклов KTM, Husqvarna, GasGas</p>
+Интернет-магазин запасных частей для мотоциклов KTM, Husqvarna, GasGas
 
-<h2 align="center">Стек:</h2>
+## Стек:
 
-- Python
-- Django
-- Django REST Framework
-- PostgreSQL
-- Redis
+- [Python](https://www.python.org/downloads/)
+- [Django](https://www.djangoproject.com/download/)
+- [Django REST Framework](https://www.django-rest-framework.org/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Redis](https://redis.io/downloads/)
 
-<h2 align="center">Функциональность:</h2>
+## Функциональность:
 
-<h2 align="center">Скриншоты:</h2>
+## Скриншоты:
 
-<h2 align="center">Установка:</h2>
+## Установка:
 
 
 
