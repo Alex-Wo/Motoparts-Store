@@ -21,7 +21,7 @@
 1. Сначала создайте и активируйте новую виртуальную среду:
 
 ```python
-python3.9 -m venv ../venv
+python3.11 -m venv ../venv
 source ../venv/bin/activate
 ```
 2. Обновите pip и установите пакеты:
