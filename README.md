@@ -8,9 +8,10 @@
 
 - [Python](https://www.python.org/downloads/)
 - [Django](https://www.djangoproject.com/download/)
-- [Django REST Framework](https://www.django-rest-framework.org/)
+- [Celery](https://pypi.org/project/celery/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [Redis](https://redis.io/downloads/)
+- [Stripe](https://stripe.com/)
 
 ## Скриншоты:
 
