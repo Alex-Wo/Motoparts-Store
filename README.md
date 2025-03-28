@@ -20,24 +20,31 @@
 
 1. Сначала создайте и активируйте новую виртуальную среду:
 
-   ```
-   python3.9 -m venv ../venv
-   source ../venv/bin/activate
-   ```
+```
+python3.9 -m venv ../venv
+source ../venv/bin/activate
+```
+2. Обновите pip и установите пакеты:
 
+```
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+3. Запуск зависимостей проекта, миграций, заполнение базы данных данными фикстур и т. д.:
 
+```
+./manage.py migrate
+./manage.py loaddata <path_to_fixture_files>
+./manage.py runserver
+```
+4. Запустите сервер Redis:
 
+```
+redis-server
+```
+5. Запустите Celery:
 
-
-
-
-
-
-
-
-
-
-
-
-
+```
+celery -A store worker --loglevel=INFO
+```
 
