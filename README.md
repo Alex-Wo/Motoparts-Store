@@ -2,7 +2,13 @@
 
 <p>Интернет-магазин запасных частей для мотоциклов KTM, Husqvarna, GasGas</p>
 
-<h2 align="center">Стек</h2>
+<h2 align="center">Стек:</h2>
+
+- Python
+- Django
+- Django REST Framework
+- PostgreSQL
+- Redis
 
 <h2 align="center">Функциональность:</h2>
 
