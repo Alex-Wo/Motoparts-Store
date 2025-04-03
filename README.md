@@ -29,8 +29,9 @@
 1. Сначала создайте и активируйте новую виртуальную среду:
 
 ```python
-python3.11 -m venv ../venv
-source ../venv/bin/activate
+python3.11 -m venv env/myshop
+source env/myshop/bin/activate (для Linux и MacOS)
+.\env\myshop\Scripts\activate (для Windows)
 ```
 2. Обновите pip и установите пакеты:
 
