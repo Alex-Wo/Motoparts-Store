@@ -121,3 +121,4 @@ http://localhost:8000
 
 ## Лицензия:
 
+Этот проект лицензирован в соответствии с лицензией ISC. Подробности можно найти в файле [LICENSE](https://github.com/Alex-Wo/Motoparts-Store/blob/master/LICENSE)
