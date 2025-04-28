@@ -23,44 +23,44 @@
 
 ### Установка и настройка:
 
-• Клонируйте репозиторий с помощью команды:
+1. Клонируйте репозиторий с помощью команды:
 ```python
 git clone https://github.com/Alex-Wo/Motoparts-Store.git
 ```
-• Перейдите в каталог проекта:
+2. Перейдите в каталог проекта:
 ```python
 cd myshop
 ```
-• Создайте виртуальную среду и активируйте её:
+3. Создайте виртуальную среду и активируйте её:
 ```python
 python3.11 -m venv env/myshop
 source env/myshop/bin/activate (для Linux и MacOS)
 .\env\myshop\Scripts\activate (для Windows)
 ```
-• Обновите pip и установите зависимости:
+4. Обновите pip и установите зависимости:
 ```python
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
-• Установите зависимости [WeasyPrint](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html) для вашей операционной системы. Это необходимо для генерации pdf чеков, которые генерируются из html шаблона.
+5. Установите зависимости [WeasyPrint](https://doc.courtbouillon.org/weasyprint/stable/first_steps.html) для вашей операционной системы. Это необходимо для генерации pdf чеков, которые генерируются из html шаблона.
 
-• Примените миграции базы данных:
+6. Примените миграции базы данных:
 ```python
 python manage.py makemigrations
 python manage.py migrate
 ```
-• Создайте суперпользователя:
+7. Создайте суперпользователя:
 ```python
 python manage.py createsuperuser
 ```
-• Для функционала оплаты проведите ключи платежной системы Stripe. Создайте файл .env и добавьте
+8. Для функционала оплаты проведите ключи платежной системы Stripe. Создайте файл .env и добавьте
 ```python
 STRIPE_PUBLISHABLE_KEY = 'pk_test_your_key'
 STRIPE_SECRET_KEY = 'sk_test_your_key'
 STRIPE_API_VERSION = 'your_stripe_aoi_version'
 STRIPE_WEBHOOK_SECRET = 'whsec_yourWebhookKey'
 ```
-• В контейнере Docker запустите службы RabbitMQ и Redis:
+9. В контейнере Docker запустите службы RabbitMQ и Redis:
 ```python
 docker pull rabbitmq
 docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:management
@@ -68,7 +68,7 @@ docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:managem
 docker pull redis
 docker run -it --rm --name redis -p 6379:6379 redis
 ```
-• Запустите celery worker:
+10. Запустите celery worker:
 ```python
 celery -A myshop worker -l info
 ```
@@ -76,27 +76,27 @@ celery -A myshop worker -l info
 ```python
 pip install eventlet
 ```
-• Запустите celery worker командой:
+11. Запустите celery worker командой:
 ```python
 celery -A myshop worker -l info -P eventlet
 ```
-• Мониторинг Celery при помощи Flower:
+12. Мониторинг Celery при помощи Flower:
 ```python
 celery -A myshop flower
 ```
-• Для просмотра активных работников Celery и статистики асинхронных заданий перейдите по адресу:
+13. Для просмотра активных работников Celery и статистики асинхронных заданий перейдите по адресу:
 
 http://localhost:5555/dashboard
 
-• Запустите прослушивание событий вебхуков:
+14. Запустите прослушивание событий вебхуков:
 ```python
 stripe listen --forward-to localhost:8000/payment/webhook/
 ```
-• Запустите сервер разработки:
+15. Запустите сервер разработки:
 ```python
 python manage.py runserver
 ```
-• Теперь вы можете открыть приложение в браузере по адресу:
+16. Теперь вы можете открыть приложение в браузере по адресу:
 
 http://localhost:8000
 
