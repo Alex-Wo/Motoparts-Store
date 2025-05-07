@@ -1,4 +1,4 @@
-# MotoParts - Store (MVP)
+# MotoParts - Store
 
 Интернет-магазин для быстрого поиска и заказа запасных частей мотоциклов KTM, Husqvarna, GasGas.
 
