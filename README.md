@@ -110,60 +110,18 @@ http://localhost:8000
 
 ## Скриншоты:
 
----
-
-<h3 align="center">Главная страница</h3>
-
----
-
 ![127 0 0 1_8000_](https://github.com/user-attachments/assets/29fa7d20-7295-4ab7-8fce-75a456bd772e)
-
----
-
-<h3 align="center">Страница товара</h3>
-
----
-
+•••
 ![image_2025-04-28_19-56-56](https://github.com/user-attachments/assets/83079272-abf6-42c4-9f6a-f166e824c3e9)
-
----
-
-<h3 align="center">Страница выбранных товаров</h3>
-
----
-
+•••
 ![image_2025-04-28_19-59-10](https://github.com/user-attachments/assets/b9f7edab-73b6-40e4-a00c-d794b1e93d6e)
-
----
-
-<h3 align="center">Страница оформления заказа</h3>
-
----
-
+•••
 ![image_2025-04-28_19-59-49](https://github.com/user-attachments/assets/a6b7bd94-a739-454b-b3c8-d0e81fd3bab7)
-
----
-
-<h3 align="center">Страница оплаты заказа</h3>
-
----
-
+•••
 ![image_2025-04-28_20-01-27](https://github.com/user-attachments/assets/2573d2c0-9f6d-4d13-aafc-07e5c70bf1bd)
-
----
-
-<h3 align="center">Страница входа в админ-панель</h3>
-
----
-
+•••
 ![image_2025-04-28_20-36-59](https://github.com/user-attachments/assets/3e364978-a4dc-487e-ab26-44b9cf57220e)
-
----
-
-<h3 align="center">Счёт-фактура</h3>
-
----
-
+•••
 ![image_2025-04-28_21-17-16](https://github.com/user-attachments/assets/e5869e37-0668-4dd3-b5fe-7d61931f5d1a)
 
 ## Лицензия:
