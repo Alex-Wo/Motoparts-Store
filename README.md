@@ -23,14 +23,14 @@
 
 ## Стек:
 
-- [Python 3.11](https://www.python.org/downloads/)
-- [Django 5.2.1](https://www.djangoproject.com/download/)
-- [Django REST framework 3.16.0](https://www.django-rest-framework.org/)
-- [PostgreSQL 17.5](https://www.postgresql.org/)
-- [Redis 6.2.0](https://redis.io/downloads/)
-- [Celery 5.5.2](https://pypi.org/project/celery/)
-- [Stripe 12.3.0](https://stripe.com/)
-- [Bootstrap 5.3.6](https://getbootstrap.com/)
+- [Python](https://www.python.org/downloads/)
+- [Django](https://www.djangoproject.com/download/)
+- [Django REST framework](https://www.django-rest-framework.org/)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Redis](https://redis.io/downloads/)
+- [Celery](https://pypi.org/project/celery/)
+- [Stripe](https://stripe.com/)
+- [Bootstrap](https://getbootstrap.com/)
 
 ### Установка и настройка:
 
